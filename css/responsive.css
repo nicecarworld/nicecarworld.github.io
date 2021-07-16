@@ -107,6 +107,7 @@ p.large {
 
 .logo_section {
     text-align: center;
+    padding-left: -1em;
 }
 
 .right_header_info {
