@@ -248,7 +248,7 @@
               </div>
               <div class="col-md-12 margin_top_30">
                 <div class="full center button_section margin_top_30">
-                    <a class="margin_top_30" href="#">Contact Us</a>
+                    <a class="margin_top_30" href="#contact">Contact Us</a>
                   </div>
               </div>
            </div>
@@ -282,7 +282,7 @@
                            <div class="testomonial_section">
                               <div class="full center">
                                 <div class="client_img">
-                                  <img src="images/testimonial.png" alt="#" />
+                                  <img src="images/abhi.png" alt="#" />
                                 </div>
                               </div>
                               <div class="full testimonial_cont text_align_center">
@@ -378,7 +378,7 @@
                           </div>
                           <div class="col-md-12">
                             <div class="full center">
-                              <button class="submit_bt">Send</button>
+                              <button disabled class="submit_bt">Send</button>
                             </div>
                           </div>
                           </fieldset>
@@ -387,10 +387,7 @@
                  </div>
               </div>
               <div class="col-md-6">
-                 <div class="full map_section">
-                     <div id="map">
-                     </div>
-                   </div>
+               <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=600&amp;height=480&amp;hl=en&amp;q=Nice%20Car%20World%20-%20Used%20Car%20Showroom,%2014%20,Pallikkunnu,%20Kannur,%20Kerala%20670004%20Kannur+(Nice%20Car%20World%20-%20Used%20Car%20Showroom)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://googlemapembed.com/'>Google Maps Generator</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:480px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:480px;}</style></div>
               </div>
             </div>
         </div>
@@ -403,7 +400,7 @@
            <div class="row">
               <div class="col-md-6">
                 <div class="full">
-                  <h3>AVALON MOTORS</h3>
+                  <h3>Nice Car World</h3>
                 </div>
               </div>
               <div class="col-md-6">
@@ -438,11 +435,11 @@
                  </div>
                  <div class="full f_menu">
                     <ul>
-                       <li><a href="#">Home</a></li>
-                       <li><a href="#">About</a></li>
-                       <li><a href="#">Our Cars</a></li>
-                       <li><a href="#">Services</a></li>
-                       <li><a href="#">Testimonial</a></li>
+                       <li><a href="#home">Home</a></li>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#about">Our Cars</a></li>
+                       <li><a href="#why_choose_us">Services</a></li>
+                       <li><a href="#testimonial">Testimonial</a></li>
                     </ul>
                  </div>
               </div>
@@ -450,7 +447,7 @@
                  <div class="full">
                    <h4 class="widget_heading">Contact Details</h4>
                    <div class="full cont_footer">
-                     <p><strong>AVALON Car : Adderess</strong><br><br>Newyork 10012, USA<br>Phone: +987 654 3210<br>demo@gmail.com</p>
+                     <p><strong>Nice Car World   :</strong><br>Opposite Ideal Decor, Pallikkunnu,<br>Kannur-670004<br>Phone:<a style="color: white;" href="tel:9447481726">+91 9447481726</a><br><a style="color: white;" href="mailto: abc@example.com">nicecarworld@gmail.com</a></p>
                    </div>
                  </div>
               </div>
@@ -466,7 +463,7 @@
               <div class="row">
                   <div class="col-md-12">
                      <div class="full">
-                        <p>© 2019 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
+                        <p>© 2021 All Rights Reserved. <a style="color:blue;" href="http://nicecarworld.in/">nicecarworld.in</a></p>
                      </div>
                   </div>
               </div>
@@ -513,12 +510,12 @@
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 11,
-          center: {lat: 40.645037, lng: -73.880224},
+          center: {lat: 48.8583, lng: -73.880224},
           });
 
         var image = 'images/location_point.png';
           var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
+             position: {lat: 48.8583, lng: -73.880224},
              map: map,
              icon: image
           });
